@@ -94,7 +94,8 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		String read = scan.nextLine();
 		System.out.println("输入数据："+read);
-		BigDecimal result = new BigDecimal(read).setScale(2, RoundingMode.HALF_UP);;
+		BigDecimal result = new BigDecimal(read).setScale(2, RoundingMode.HALF_UP);
+		System.out.println("完成");
 		return result;
 	}
 }
